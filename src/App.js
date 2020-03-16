@@ -1,7 +1,12 @@
 import React from 'react'
 
+import { App } from '@gia/layout/components'
+import Window from '@gia/components/Window'
+
 export default () => {
     return (
-        <h1>Hello World λ</h1>
+        <App>
+            <Window />
+        </App>
     )
 }
