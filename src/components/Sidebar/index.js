@@ -5,7 +5,7 @@ import Navigation from '@gia/components/Navigation'
 
 export default () => {
     return (
-        <Sidebar>
+        <Sidebar data-testid="sidebar">
             <Sidebar.System>
                 <System>
                     <System.Button modifiers="close" />

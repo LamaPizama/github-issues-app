@@ -7,7 +7,7 @@ import Content from '@gia/components/Content'
 
 export default () => {
     return (
-        <Window>
+        <Window data-testid="window">
             <Window.Sidebar>
                 <Sidebar />
             </Window.Sidebar>

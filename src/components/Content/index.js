@@ -63,7 +63,7 @@ const issues = {
 
 export default () => {
     return (
-        <Content>
+        <Content data-testid="content">
             <Content.List>
                 <Issues data={issues} />
             </Content.List>

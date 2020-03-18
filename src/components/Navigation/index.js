@@ -5,7 +5,7 @@ import { Github, Open, Closed } from '@gia/layout/icons'
 
 export default () => {
     return (
-        <Navigation>
+        <Navigation data-testid="navigation">
 
             <Navigation.Item modifiers="active">
                 <Navigation.Content>

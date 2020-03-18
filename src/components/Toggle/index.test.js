@@ -15,8 +15,8 @@ describe('<Toggle />', () => {
     it('Should change toggle on click', () => {
 
         const spy = jest.fn()
-        const { getByTestId } = render(<Toggle on={false} render={spy} />)
-        const toggle = getByTestId('button-toggle')
+        const { getByRole } = render(<Toggle on={false} render={spy} />)
+        const toggle = getByRole('button')
 
         fireEvent.click(toggle)
         expect(spy).toHaveBeenCalledWith(true)

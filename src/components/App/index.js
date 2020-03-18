@@ -5,7 +5,7 @@ import Window from '@gia/components/Window'
 
 export default () => {
     return (
-        <App>
+        <App data-testid="app">
             <Window />
         </App>
     )
