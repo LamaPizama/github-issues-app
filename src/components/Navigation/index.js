@@ -7,7 +7,7 @@ export default () => {
     return (
         <Navigation>
 
-            <Navigation.Item>
+            <Navigation.Item modifiers="active">
                 <Navigation.Content>
                     <Navigation.Icon>
                         <Github />

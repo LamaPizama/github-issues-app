@@ -1,6 +1,10 @@
 {
-    "extends": "react-app",
+    "extends": [
+        "react-app",
+        "plugin:jest-dom/recommended"
+    ],
     "plugins": [
+        "jest-dom",
         "react-hooks"
     ],
     "rules": {

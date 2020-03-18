@@ -12,7 +12,7 @@ const ICON_MODIFIERS = {
 
 }
 
-export default styled.div`
+export default styled.i`
 
     svg {
         fill: #ffffff;

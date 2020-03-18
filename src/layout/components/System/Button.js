@@ -23,6 +23,7 @@ export default styled.div`
     border-radius: 50%;
     margin: 0 10px;
     box-sizing: border-box;
+    cursor: pointer;
 
     &:first-of-type {
         margin: 0;
