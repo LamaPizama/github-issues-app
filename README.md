@@ -13,7 +13,6 @@ Github issues application reproduced "pixel perfect way"
 
 
 ## Docker
----
 To run application using Docker 
 
 - **Using Dockerfile**
