@@ -22,8 +22,8 @@ This application fully supports docker development with hot-reloading and produc
 ### Devlopment
 To develop application you can use:
 
-- **[Dockerfile](#### Dockerfile)**
-- **[docker-compose.yml](#### docker-compose.yml)**
+- [Dockerfile](#### Dockerfile)
+- [docker-compose.yml](#### docker-compose.yml)
 
 #### Dockerfile
 To start developing using Dockerfile build and tag the Docker image:
