@@ -24,7 +24,9 @@ Build and tag the Docker image:
 $ docker build -t github-issues-app:dev .
 ```
 Then, spin up the container once the build is done:
+```bash
 $ docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm github-issues-app:dev
+```
 
 Want to use docker-compose? Build image and fire up the container
 ```bash
